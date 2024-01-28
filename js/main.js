@@ -55,7 +55,7 @@ function displayMealCards(meals) {
         <div class="col-md-3">
             <div onclick="fetchMealDetails('${meals[i].idMeal}')" class="meal position-relative overflow-hidden rounded-2 cursor-pointer">
                 <img class="w-100" src="${meals[i].strMealThumb}" alt="" srcset="">
-                <div class="meal-layer position-absolute d-flex align-items-center text-black p-2">
+                <div class="meal-layer position-absolute d-flex align-items-center justify-content-center  text-white p-2">
                     <h3>${meals[i].strMeal}</h3>
                 </div>
             </div>
